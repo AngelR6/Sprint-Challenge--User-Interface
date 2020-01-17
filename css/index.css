@@ -207,7 +207,54 @@ footer nav a {
 
 
 /*CSS for about page*/
+
+.header-img {
+    margin-top: 5%;
+}
+
 .container-about-page {
     width: 800px;
     margin: 0 auto;
+}
+
+.first-section {
+    padding: 0% 0% 2% 0%;
+    border-bottom: dotted black 2px;
+}
+
+.second-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strategy {
+    width: 45%;
+    margin: 5% auto;
+    padding: 0% 0% 5% 0%;
+    border-bottom: 2px dotted gray;
+}
+
+.strategy button {
+    width: 25%;
+    height: 10%;
+    margin: 3% 0% 0% 0%;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+
+.third-section p {
+    margin: 0% 0% 3% 0%;
+}
+
+.footer-nav{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    padding: 20px 2px;
+    font-size: 14px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
 }
