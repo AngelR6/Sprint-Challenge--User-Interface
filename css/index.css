@@ -67,20 +67,6 @@ p {
     line-height: 1.4;
 }
 
-.nav-bar {
-    width: 800px;
-    margin: 2% auto;
-}
-.header-img {
-    margin: 0% 0% 3% 0%;
-}
-
-.nav-bar a {
-    color: black;
-    padding: 0% 4% 0% 4%;
-    text-decoration: none;
-}
-
 .container {
     width: 800px;
     margin: 0 auto;
@@ -127,10 +113,6 @@ p {
     justify-content: center;
 }
 
-.box1 {
-    color: teal;
-}
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -165,3 +147,67 @@ footer nav a {
 }
 
 /* Code Starts Here! */
+
+/*Nav bar for home page and about page*/
+.nav-bar {
+    width: 800px;
+    margin: 2% auto;
+}
+.nav-bar a {
+    color: black;
+    padding: 0% 4% 0% 4%;
+    text-decoration: none;
+}
+
+/*header image for home page*/
+.header-img {
+    margin: 0% 0% 3% 0%;
+}
+
+/*Selectors for box colors*/
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+
+/*CSS for about page*/
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
